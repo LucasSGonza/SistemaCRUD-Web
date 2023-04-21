@@ -1,2 +1,3 @@
 # SistemaCRUD-Web
-Sistema que permite realizar operações CRUD em uma página Web. Atualmente o projeto utiliza de JavaScript, HTML e CSS.
+Sistema que permite realizar operações <i>CRUD</i> em uma página Web. <br>
+Atualmente o projeto utiliza de <b>JavaScript, HTML e CSS</b>.
