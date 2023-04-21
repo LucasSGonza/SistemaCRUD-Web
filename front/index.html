@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escola!</title>
+    <link rel="stylesheet" type="text/css" href="cssSistema.css" />
+</head>
+
+<body>
+    <script src="sistemaEscola.js"></script>
+    
+    <div id="div-principal">
+        
+        <div id="div-formulario">
+            <h1 style="margin-bottom: 40px;">Cadastro de Alunos</h1>
+
+            <div class="divs-inputs">
+                <label id="label_aluno"><b>Nome:</b></label>
+                <input type="text" id="nome_aluno" onblur="verificarTexto(this.value)" maxlength="50px">
+            </div>
+
+            <div class="divs-inputs">
+                <label id="label_idade"><b>Idade:</b></label>
+                <input type="text" id="idade_aluno" maxlength="2" onblur="verificarNum(this.value)">
+            </div>
+
+            <div class="divs-inputs">
+                <label id="label_curso"><b>Curso:</b></label>
+                <input type="text" id="curso_aluno" onblur="verificarTexto(this.value)">
+            </div>
+
+            <div class="divs-inputs">
+                <label id="label_fase"><b>Fase:</b></label>
+                <input type="text" id="fase_curso" onblur="verificarNum(this.value)" maxlength="2">
+            </div>
+
+            <div class="div-botoes">
+                <button onclick="limparCampos()"><b>Cancelar</b></button>
+                <button onclick="criarAlunoHTML()"><b>Confirmar</b></button>
+                <button onclick="visualizarAluno()"><b>Visualizar</b></button>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

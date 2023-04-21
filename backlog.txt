@@ -1,0 +1,13 @@
+FUNCIONALIDADES
+
+feitas:
+
+-cadastrar aluno
+-visualizar aluno cadastrado
+
+
+a fazer:
+
+-editar aluno
+-excluir aluno
+-visualizar a turma toda (todos os alunos registrados)

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background-color: #222222;
+    /*
+    background-image: url(macacoTelefone.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+}
+
+#div-principal {
+    color: #11998e; /*cor da fonte*/
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 35%;
+    position: fixed;
+}
+
+#div-formulario {
+    text-align: center;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: 30px;
+}
+
+.divs-inputs {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.div-botoes {
+    text-align: center;
+}
+
+input {
+    font-size: large;
+    color: #11998e;
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #11998e;
+    outline: 0;
+}
+
+/*https://codepen.io/lucasyem/pen/ZEEYKdj*/
+
+button {
+    /*https://www.jotform.com/pt/help/726-personalizando-o-botao-enviar-com-css/*/
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    transition: .3s ease;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #11998e;
+    border-color: black;
+}
